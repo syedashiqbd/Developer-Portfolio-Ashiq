@@ -5,11 +5,17 @@ body{
 h1{
    font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .orange-color{
     color:orange;
 }
-.top-banner {
+.flexiable-container{
     display: flex;
+    margin-bottom:80px;
+}
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -27,11 +33,8 @@ h1{
     background-image: linear-gradient(tomato, orange);
     padding: 10px 40px;
     border-radius: 5px;
-    margin-top: 20px;
 }
 .drean-big{
-    display: flex;
-    margin-top: 60px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -39,5 +42,24 @@ h1{
 .drean-big p {
     padding-right: 100px;
 }
-
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.left-experience-item{
+    border-left: 7px tomato solid;
+}
+.right-experience-item{
+    border-left: 7px blue solid;
+}
+footer p{
+    text-align: center;
+}
 
