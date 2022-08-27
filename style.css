@@ -62,15 +62,14 @@ h2 {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
-    
+}
+.border-right-radius{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 footer{
     margin-top: 20px;
 }
 footer p{
     text-align: center;
-}
-.border-right-radius{
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
 }
