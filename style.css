@@ -50,14 +50,21 @@ h2 {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
+    padding: 10px 15px 5px;
     box-shadow: 10px 10px 40px gray;
 }
 .left-experience-item{
-    border-left: 7px tomato solid;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
 }
 .right-experience-item{
-    border-left: 7px blue solid;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    margin-top: 20px;
 }
 footer p{
     text-align: center;
