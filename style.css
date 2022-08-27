@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color:orange;
 }
-.top-banner{
+.top-banner {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -28,6 +28,16 @@ h1{
     padding: 10px 40px;
     border-radius: 5px;
     margin-top: 20px;
+}
+.drean-big{
+    display: flex;
+    margin-top: 60px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.drean-big p {
+    padding-right: 100px;
 }
 
 
